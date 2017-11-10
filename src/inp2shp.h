@@ -23,7 +23,7 @@
 #define   MAXTOKS   40		/* Max. items per line of input */
 #define UCHAR(x) (((x) >= 'a' && (x) <= 'z') ? ((x)&~32) : (x))
 /* #define DEBUG 1 */
-#define MAXNUMNODES 5000
+#define MAXNUMNODES 200000
 
 void remove_shp(char *shapefile);
 int str_is_shp(char *str);
